@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">cc-relink icon</title>
+  <desc id="desc">A repaired chain inside a conversation bubble.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#302C33"/>
+      <stop offset="1" stop-color="#1E1B20"/>
+    </linearGradient>
+    <linearGradient id="repair" x1="100" y1="154" x2="163" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F1A07F"/>
+      <stop offset="1" stop-color="#D97757"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="10" y="10" width="236" height="236" rx="58" fill="url(#background)"/>
+  <rect x="11" y="11" width="234" height="234" rx="57" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="2"/>
+
+  <!-- Conversation bubble: the transcript that contains the broken parent chain. -->
+  <path
+    d="M57 42h142c16.6 0 30 13.4 30 30v91c0 16.6-13.4 30-30 30h-83l-43 31v-31H57c-16.6 0-30-13.4-30-30V72c0-16.6 13.4-30 30-30Z"
+    fill="none"
+    stroke="#F5F0EA"
+    stroke-width="11"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Two separated link halves. -->
+  <path
+    d="m111 139-13 13a27 27 0 0 1-38.2-38.2l22-22A27 27 0 0 1 120 130"
+    fill="none"
+    stroke="#F5F0EA"
+    stroke-width="13"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="m145 105 13-13a27 27 0 0 1 38.2 38.2l-22 22A27 27 0 0 1 136 114"
+    fill="none"
+    stroke="#F5F0EA"
+    stroke-width="13"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- The warm bridge is the repaired parentUuid connection. -->
+  <path
+    d="m98 152 60-60"
+    fill="none"
+    stroke="url(#repair)"
+    stroke-width="15"
+    stroke-linecap="round"
+  />
+  <circle cx="98" cy="152" r="5" fill="#FFD2BF"/>
+  <circle cx="158" cy="92" r="5" fill="#FFD2BF"/>
+</svg>
