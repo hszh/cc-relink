@@ -132,6 +132,6 @@ Restart VSCode or resume the session to see the effect.
 Retries are the trigger, so an unstable network or proxy makes this much more likely.
 Stabilizing the connection is the only real prevention; the bug itself is client-side.
 
-## 7. License
+## 7. Links
 
-MIT
+Feel free to visit [LINUX DO](https://linux.do) to browse the community's latest topics and discussions.

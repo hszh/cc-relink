@@ -118,6 +118,6 @@ cc-relink export 1f711467 -o ./recover
 触发条件是重试，所以网络或代理不稳会大幅提高中招概率。根因在客户端，
 稳住网络是唯一能自己做的预防。
 
-## 7. License
+## 7. 友情链接
 
-MIT
+欢迎访问 [LINUX DO](https://linux.do)，浏览社区最新主题与讨论。
